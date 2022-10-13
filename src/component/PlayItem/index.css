@@ -1,0 +1,53 @@
+.play-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.image {
+  width: 200px;
+}
+.response {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.genre {
+  color: #3b82f6;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+}
+.duration {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.button {
+  color: #ffffff;
+  border: 0px none;
+  background-color: transparent;
+  text-align: center;
+  margin-left: 20px;
+}
+.button:hover {
+  color: #ffffff;
+  box-shadow: 3px 3px 20px #1d912c;
+}
